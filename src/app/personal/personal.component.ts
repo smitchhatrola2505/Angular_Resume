@@ -8,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class PersonalComponent implements OnInit {
 
   constructor() { }
-  personal = [{Name:"Smit Chhatrola",Email:"schhatrola779@rku.ac.in",Contact_No:81280614656,Address:"Tramba"}]
+  personal = [{ Name: "Smit Chhatrola", Email: "schhatrola779@rku.ac.in", Contact_No: 81280614656, Address: "Tramba" }]
   ngOnInit(): void {
+  }
+  show(name: any) {
+    console.log(name.value)
   }
 
 }
