@@ -11,8 +11,4 @@ export class PersonalComponent implements OnInit {
   personal = [{ Name: "Smit Chhatrola", Email: "schhatrola779@rku.ac.in", Contact_No: 81280614656, Address: "Tramba" }]
   ngOnInit(): void {
   }
-  show(name: any) {
-    console.log(name.value)
-  }
-
 }
